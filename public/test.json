@@ -1,0 +1,16 @@
+{
+    
+"data":[
+    {"cinemaId": 1, "name": "1英皇电影城", "address": "深圳市福田区东海缤纷天地商场B1层"},
+    {"cinemaId": 2, "name": "2英皇电影城", "address": "深圳市福田区东海缤纷天地商场B12层"},
+    {"cinemaId": 3, "name": "3英皇电影城", "address": "深圳市福田区东海缤纷天地商场B13层"},
+    {"cinemaId": 4, "name": "4英皇电影城", "address": "深圳市福田区东海缤纷天地商场B14层"},
+    {"cinemaId": 5, "name": "5英皇电影城", "address": "深圳市福田区东海缤纷天地商场B15层"},
+    {"cinemaId": 6, "name": "6英皇电影城", "address": "深圳市福田区东海缤纷天地商场B16层"},
+    {"cinemaId": 7, "name": "7英皇电影城", "address": "深圳市福田区东海缤纷天地商场B178层"},
+    {"cinemaId": 8, "name": "8英皇电影城", "address": "深圳市福田区东海缤纷天地商场B18层"},
+    {"cinemaId": 9, "name": "9英皇电影城", "address": "深圳市福田区东海缤纷天地商场B19层"},
+    {"cinemaId": 10, "name": "10英皇电影城", "address": "深圳市福田区东海缤纷天地商场B11层"}
+]
+
+}

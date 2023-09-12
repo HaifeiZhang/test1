@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './01-base/15-betterscrollcinemas'
+import App from './02-advanced/01-childtofather'
 
 
 // ReactDOM.render(<div>

@@ -2,10 +2,18 @@ import React, { Component } from 'react'
 
 class Box extends Component{
     render(){
+      console.log("render2")
         return(
-            <div style={{height:"100px",width:"100px",border:"1px solid gray",float:"left",margin:"10px"}}></div>
+            <div style={{height:"100px",width:"100px",
+            border:this.props.curent===this.props.index?"5px solid red":"1px solid gray",float:"left",margin:"10px"}}></div>
         )
     }
+    shouldComponentUpdate(nextProps, nextState) { 
+      if((nextProps.curent===nextProps.index)||(this.props.curent===this.props.index)){
+        return true
+      }
+      return false
+     }
 }
 
 export default class App extends Component {
@@ -14,6 +22,7 @@ export default class App extends Component {
         curent:0
     }
   render() {
+    console.log("render1")
     return (
       <div>
         <input type="number" onChange={(event)=>{

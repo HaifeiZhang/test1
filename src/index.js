@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './02-advanced/16-life-update2-case'
+import App from './02-advanced/26-swiper-case3'
 
 
 // ReactDOM.render(<div>

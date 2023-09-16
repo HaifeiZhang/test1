@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './04-router/App'
+import App from './05-redux/App'
 
 
 // ReactDOM.render(<div>

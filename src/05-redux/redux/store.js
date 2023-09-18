@@ -1,20 +1,16 @@
-import {createStore} from 'redux'
+import {applyMiddleware, combineReducers, createStore} from 'redux'
+import TabbarReducer from '../reducers/TabbarReducer';
+import CityReducer from '../reducers/CityReducer';
+import CinemasReducer from '../reducers/CinemasReducer';
+import reduxThunk from 'redux-thunk'
 
-const reducer = (prevState={show:true},action)=>{
-    let newState = {...prevState}
-    switch(action.type){
-        case "hidden-tabbar":
-            newState.show = false
-            return newState
-        case "show-tabbar":
-            newState.show=true
-            return newState
-        default:
-            return prevState
-    }
-}
+const reducer = combineReducers({
+    TabbarReducer,
+    CityReducer,
+    CinemasReducer
+})
 
-const store = createStore(reducer);
+const store = createStore(reducer,applyMiddleware(reduxThunk));
 //store.dispatch
 //store.subscribe
 //sore.getState

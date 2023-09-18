@@ -8,6 +8,7 @@ import Center from '../views/Center'
 import NotFound from '../views/NotFound'
 import Details from '../views/Details'
 import Login from '../views/Login'
+import City from '../views/City'
 
 function isAuth(){
   return localStorage.getItem("token")
@@ -21,6 +22,7 @@ export default class myrouter extends Component {
         {this.props.children}
         <Switch>
             <Route path="/films" component={Films}></Route>
+            <Route path="/city" component={City}></Route>
             <Route path="/cinemas" component={Cinemas}></Route>
             {/* <Route path="/center" component={Center}></Route> */}
             {/* 路由拦截 */}

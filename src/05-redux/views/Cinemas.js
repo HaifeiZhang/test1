@@ -16,13 +16,17 @@ export default class Cinemas extends Component {
 
     }
     //console.log(this.state.CinemasList)
-    store.subscribe(()=>{
+     this.unsubsribe = store.subscribe(()=>{
       this.setState({
         CinemasList:store.getState().CinemasReducer.CinemaList
       })
       //console.log(this.state.CinemasList)
     })
    }
+
+   componentWillUnmount() {
+    this.unsubsribe()
+    }
 
   render() {
     return (

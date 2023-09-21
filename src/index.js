@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './05-redux/App'
+import App from './07-antd/01-antdImport'
+// import 'antd/dist/antd.css'
+// import { Provider } from 'react-redux';
+// import store from './07-antd/01-antdImport';
 
 
 // ReactDOM.render(<div>
@@ -14,4 +17,8 @@ import App from './05-redux/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<App></App>);
+root.render(<App></App>
+    // <Provider store={store}>
+    //     <App></App>
+    // </Provider>
+);

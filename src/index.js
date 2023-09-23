@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './08-Immutable/02-map'
+import App from './09-Mobx/App'
 // import 'antd/dist/antd.css'
 // import { Provider } from 'react-redux';
 // import store from './07-antd/01-antdImport';
